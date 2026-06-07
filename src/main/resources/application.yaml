@@ -1,6 +1,6 @@
 #  https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 app:
-  host-url: http://localhost:8080
+  host-url: http://localhost:8081
   test-mail: jira4jr@gmail.com
   templates-update-cache: 5s
   mail-sending-props:
@@ -26,7 +26,7 @@ spring:
         # https://stackoverflow.com/questions/21257819/what-is-the-difference-between-hibernate-jdbc-fetch-size-and-hibernate-jdbc-batc
         jdbc.batch_size: 20
   datasource:
-    url: jdbc:postgresql://localhost:5432/jira
+    url: jdbc:postgresql://localhost:5434/jira
     username: jira
     password: JiraRush
 
@@ -134,4 +134,5 @@ server:
       charset: UTF-8 # Charset of HTTP requests and responses. Added to the "Content-Type" header if not set explicitly
       enabled: true # Enable http encoding support
       force: true
+  port: 8081
 springdoc.swagger-ui.path: /doc
