@@ -34,3 +34,4 @@
 - Task 6. Refactor FileUtil#upload to use modern NIO API
 - Task 8. Add task time tracking (in-progress and testing duration)
 - Task 9. Add Dockerfile for the application server
+- Task 10. Add Dockerfile for the application server, DB and nginx
